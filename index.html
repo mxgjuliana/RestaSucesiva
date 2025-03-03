@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>División por Restas Sucesivas</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="logica.js" defer></script>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="card">
+            <div class="card-content">
+                <div class="content">
+                    <h1 class="title">División por Restas Sucesivas</h1>
+                    <div class="field">
+                        <label class="label">Dividendo</label>
+                        <div class="control">
+                            <input id="dividendo" class="input" type="number" placeholder="Ingresa el dividendo">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Divisor</label>
+                        <div class="control">
+                            <input id="divisor" class="input" type="number" placeholder="Ingresa el divisor">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="control">
+                            <button id="botonDividir" class="button is-black">Dividir</button>
+                        </div>
+                    </div>
+                    <input type="text">
+                    <div class="resultadosMensajes">
+                        <p id="mensajeError" class="has-text-danger"></p>
+                        <div id="resultadoDivision" class="content"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <footer class="footer">
+            <p>
+                Hecho por
+                <strong>Melissa Romero</strong> y
+                <strong>Juliana Melo</strong>
+            </p>
+        </footer>
+</body>
+
+</html>
